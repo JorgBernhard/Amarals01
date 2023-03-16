@@ -1,0 +1,54 @@
+.Restaurant {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+.RestaurantContainerLeft {
+  display: flex;
+  flex-direction: row;
+
+  width: 50vw;
+  height: 100vh;
+
+  background-image: url('../../assets/restaurant.jpg');
+  background-size: cover;
+  
+  justify-content: center;
+  
+}
+.RestaurantContainerRight {
+  display: flex;
+  flex-direction: column;
+
+  width: 50vw;
+  height: 100vh;
+
+  background-image: url('../../assets/backgroundLiso.png');
+  background-size: cover;
+  
+  justify-content: center;
+  align-items: center;
+}
+.Willkommen {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(205, 179, 112);
+  text-align: center;
+
+  margin-top: 10rem;
+}
+
+.Chef {
+  height: 40rem;
+  margin-left: 38rem;
+  margin-top: 10rem;
+  border-radius: 2rem;
+  border: solid 0.4rem rgb(205, 179, 112);
+  transform: rotate(10deg);
+}

@@ -1,0 +1,73 @@
+
+
+.nav-icon img {
+  height: 5rem;
+  position: fixed;
+  top:  1rem;
+  right: 1%;
+  cursor: pointer;
+  z-index: 21;
+}
+.nav-icon img:hover {
+  transform: rotate(180deg);
+}
+@media only screen and (max-width: 800px) {
+  .nav-icon img {
+    height: 3rem;
+   }}
+.nav-menu {
+  background-color: rgba(0, 0, 0, 0.674);
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  align-items: center;
+  right: 100vw;
+  transition: 250ms;
+  z-index: 20;
+  
+}
+.nav-menu.active {
+  right: 0rem;
+  transition: 250ms;
+  
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.nav-menu-items .links-header {
+  padding: 1rem 1rem;
+}
+
+.nav-menu-items .links-header:first-child {
+  margin-top: 0rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: rgb(205, 179, 112);
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  a {
+    font-size: 1.6rem;
+
+   }}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}

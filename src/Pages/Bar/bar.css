@@ -1,0 +1,57 @@
+.Bar {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+.BarContainerLinks {
+  display: flex;
+  flex-direction: column;
+  
+  width: 35vw;
+  height: 100vh;
+  
+  background-image: url('../../assets/Mojito.png');
+  background-size: cover;
+ 
+ 
+}
+.BarContainerMitte {
+  display: flex;
+  flex-direction: column;
+  
+  width: 15vw;
+  height: 100vh;
+
+  background-image: url('../../assets/backgroundLiso.png');
+  background-size: cover;
+ 
+}
+.BarContainerRechts {
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  height: 100vh;
+  
+  background-image: url('../../assets/Bar.png');
+  background-size: cover;
+
+
+}
+.Herzlich {
+ 
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: rgb(205, 179, 112);
+  padding: 1rem 10.5rem 1rem 5rem;
+
+  background-color: rgb(88, 44, 11);
+
+  margin-top: 7rem;
+  margin-left:57rem;
+}
