@@ -1,4 +1,4 @@
-import Drink from "../../assets/Mohito.png";
+
 import './bar.css';
 
 function Bar() {
