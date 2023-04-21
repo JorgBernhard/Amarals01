@@ -1,0 +1,96 @@
+.HeaderBar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: rgba(29, 28, 28, 0.9);
+    position: fixed;
+    margin-top: -1rem;
+    z-index: 30;
+}
+.LayoutContainer {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Logo {
+    height: 10rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.LayoutRestaurant {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutRestaurant:hover {
+    color: rgb(185, 155, 73);
+}
+.LayoutBar {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutBar:hover {
+    color: rgb(185, 155, 73);
+}
+.LayoutSpeisekarte {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutSpeisekarte:hover {
+    color: rgb(185, 155, 73);
+}
+.LayoutCatering {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutCatering:hover {
+    color: rgb(185, 155, 73);
+}
+.LayoutReservierungen {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+}
+.LayoutReservierungen:hover {
+    color: rgb(185, 155, 73);
+}
+.LayoutKontakt {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+   
+}
+.LayoutKontakt:hover {
+    color: rgb(185, 155, 73);
+}

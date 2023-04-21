@@ -1,0 +1,77 @@
+.Bar {
+    display: flex;
+    flex-direction: row;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    background: linear-gradient(to right, #3f0703 10%, #180e09 100%);
+    background-image: url('../assets/Bar.png');
+    background-size: cover;
+  
+    align-items: center;
+    
+  }
+  .BarLinks {
+    display: flex;
+    flex-direction: row;
+  
+    width: 70vw;
+    height: 100vh;
+
+    border-right: solid 0.1rem white;
+  }
+  .BarRechts {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('../assets/backgroundLiso.png');
+    background-size: cover;
+    opacity: 85%;
+    width: 30vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoAR {
+    width: 30rem;
+    margin-top: 2rem;
+    margin-left: -20rem;
+    transform: rotate(-15deg);
+  }
+  .BarText {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: -6rem;
+    margin-bottom: -3rem;
+    transform: rotate(-10deg);
+    text-shadow: 0.5rem 0.5rem 1rem  rgb(224, 156, 54);
+  }
+  .BebidaI {
+    width: 25rem;
+    transform: rotate(10deg);
+    margin-top: 10rem;
+    margin-bottom: -5rem;
+    margin-left: -10rem;
+    border: solid 0.2rem white;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  }
+  .BebidaII {
+    width: 25rem;
+    transform: rotate(6deg);
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    margin-left: -5rem;
+    border: solid 0.2rem white;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  }
+  .BebidaIII {
+    width: 25rem;
+    transform: rotate(-10deg);
+    margin-top: -rem;
+    margin-left: 15rem;
+    border: solid 0.2rem white;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  }

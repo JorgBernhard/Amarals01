@@ -1,0 +1,134 @@
+.Restaurant {
+    display: flex;
+    flex-direction: column;
+ 
+  
+  }
+  .RestaurantDesign {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height:100vh;
+    
+    background-image: url('../assets/restaurant.jpg');
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .Texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .BemVindo {
+    font-family: 'Satisfy', cursive;
+    font-size: 7rem;
+    text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
+    color: #ffffff;
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 0rem;
+ 
+  }
+  .Amarals{
+    font-family: 'Satisfy', cursive;
+    font-size: 9rem;
+    text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
+    color: #ffffff;
+    text-align: center;
+   
+    margin-top: -4rem;
+    margin-bottom: 0rem;
+    
+  }
+  .Boden {
+    display: flex;
+    flex-direction: row;
+ 
+    background-image: url(../assets/backgroundLiso.png);
+    background-size: cover;
+    opacity: 80%;
+    width: 100vw;
+    height: 20vh;
+    margin-top: -20vh;
+    border-top: solid 0.2rem white;
+  }
+  .ZeitenLinks {
+    display: flex;
+    flex-direction: column;
+    
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+
+    align-items: center;
+    justify-content: center;
+
+    border-right: solid 0.2rem white;
+  }
+    
+  .Offen {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+  
+    color: #ffffff;
+
+    text-align: center;
+
+    margin-top: 0rem;
+  }
+  .RestaurantReservierungen {
+    all: unset;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    
+    margin-top: -0rem;
+   
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: solid 0.2rem #ffffff;
+    border-radius: 1rem;
+    background-color: #553f1e00;
+    text-align: center;
+    cursor: pointer;
+  }
+  .RestaurantReservierungen:hover {
+    color:  #ffffff;
+    font-weight: 700;
+  } 
+
+.AdresseRechts {
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+
+  align-items: center;
+  justify-content: center;
+}
+.RestaurantAdresse {
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+  font-weight: 700;
+
+  color: goldenrod;
+  text-align: center;
+  margin-bottom: -0.5rem;
+}
+.Adresse {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+
+  color: #ffffff;
+  text-align: center;
+
+}
