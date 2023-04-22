@@ -19,8 +19,7 @@
     width: 70vw;
     height: 100vh;
 
-    border-right: solid 0.1rem white;
-  }
+   }
   .BarRechts {
     display: flex;
     flex-direction: column;

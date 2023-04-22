@@ -55,7 +55,7 @@
     width: 100vw;
     height: 20vh;
     margin-top: -20vh;
-    border-top: solid 0.2rem white;
+    
   }
   .ZeitenLinks {
     display: flex;
@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
 
-    border-right: solid 0.2rem white;
+  
   }
     
   .Offen {

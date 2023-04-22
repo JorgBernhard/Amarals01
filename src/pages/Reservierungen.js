@@ -1,15 +1,22 @@
+import Buque from '../assets/Decor.png';
+import Chefe from '../assets/Chefe.png';
 
 import '../css/reservierungen.css';
 
-const Galerie = () => {
+const Reservierungen = () => {
     return <>
-     <div className="Galerie">
-      <div className='GalerieContainer'>
-     
-      </div>
+     <div className="Reservierungen">
+        <div className='ReservierungenContainer'>
+          <div className='LinksReservierungen'>
+          <img className='Decor' src={Buque} alt="decor" />
+
+          </div>
+          <div className='RechtsReservierungen'>
+          <img className='Chefe' src={Chefe} alt="Chefe" />
+          </div>
+        </div>
     </div>
-    
     </>
   };
   
-  export default Galerie;
+  export default Reservierungen;

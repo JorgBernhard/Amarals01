@@ -1,235 +1,44 @@
-.Us {
+.Reservierungen {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   
     width: 100vw; 
-    height: 110vh;
+    height: 100vh;
+  
+  }
+.ReservierungenContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.LinksReservierungen {
+  display: flex;
+  flex-direction: column;
 
-    background: linear-gradient(to right, #021538 10%, #063866 100%);
+  width: 65vw; 
+  height: 100vh;
+}
+.RechtsReservierungen {
+  display: flex;
+  flex-direction: column;
   
-    align-items: center;
+  width: 35vw; 
+  height: 100vh;
   
-  }
-  @media only screen and (max-width: 850px) {
-    .Us {
-    
-      height: 220vh;
-     }}
-  .UsContainer {
-    display: flex;
-    flex-direction: column;
-  
-    width: 120rem; 
-   
-    align-items: center;
-    justify-content: center;
-  }
-  .Us-header {
-    display: flex;
-    flex-direction:column;
-  
-    position: absolute;
-  
-    width: 120rem;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Us-logoI {
-    width: 20rem;
-    height: 20rem;
-    margin-top: 5rem;
-    margin-left: 50rem;
-    opacity: 20%;
-    
-  }
-  .Us-logoI:hover {
-    opacity: 100%;
-  }
-  .Us-logoII {
-    width: 30rem;
-    height: 30rem;
-    opacity: 20%;
-    margin-top: 0rem;
-    margin-left: -45rem;
-  }
-  .Us-logoII:hover {
-    opacity: 100%;
-  }
-  .Us-logoIII {
-    width: 40rem;
-    height: 40rem;
-    opacity: 30%;
-    margin-top: -15rem;
-    margin-left: 50rem;
-  }
-  .Us-logoIII:hover {
-    opacity: 100% ;
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .Us-logoI, .Us-logoII, .Us-logoIII {
-      animation: Us-logo-spin infinite 30s alternate-reverse;
-      
-    }
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .Us-logoII {
-      animation: Us-logo-spin infinite 15s alternate-reverse;
-      
-    }
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .Us-logoIII {
-      animation: Us-logo-spin infinite 20s alternate-reverse;
-    }
-  }
-  .Us-link {
-    color: #61dafb;
-  }
-  
-  @keyframes Us-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  .UsText {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
-    text-align: left;
-    margin-top: 10rem;
-   
-    z-index: 10;
-  }
-  @media only screen and (max-width: 850px) {
-    .UsText {
-      font-size: 2rem;
-    font-weight: 500;
-     }}
-  .UsTextGeral {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    color: white;
-  
-    width: 60%;
-    text-align: justify;
-    margin-top: 4rem;
-    z-index: 10;
-  }
-  @media only screen and (max-width: 850px) {
-    .UsTextGeral {
-      font-size: 2rem;
-      font-weight: 300;
-       width: 30rem;
-     }}
-  .UsContainerCenter {
-    display: flex;
-    flex-direction: row;
-   
-    align-items: center;
-    justify-content: center;
-  }
-  @media only screen and (max-width: 850px) {
-    .UsContainerCenter {
-      display: flex;
-      flex-direction: column;
-      width: 50rem;
-     }}
-  .Ceo {
-    width: 30rem;
-  
-      margin-top: 2rem;
-    border-left: solid 0.3rem  rgb(240, 9, 190);
-    border-bottom: solid 0.1rem  rgb(240, 9, 190);
-    border-radius: 50%;
-    z-index: 10;
-  }
-  .UsCeoGeral {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    color: white;
-  
-    width: 34%;
-    text-align: justify;
-    margin-top: 4rem;
-    z-index: 10;
-  }
-  @media only screen and (max-width:  850px) {
-    .UsCeoGeral{
-      font-size: 2rem;
-      font-weight: 300;
-      width: 60%;
-      
-     }}
-  .UsBoden {
-    display: flex;
-    flex-direction: column;
-  
-    align-items: center;
-    justify-content: center;
-  
-    margin-top: 4rem;
-  }
-  .UsBodenText {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
-  
-    margin-top: 2rem;
-    z-index: 10;
-  }
-  @media only screen and (max-width: 850px) {
-    .UsBodenText  {
-      font-size: 2rem;
-      font-weight: 500;
-      margin-left: 0rem;
-      
-     }}
-  .UsBodenImages {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-  
-    gap: 1rem;
-    z-index: 10;
-    align-items: center;
-    justify-content: center;
-  }
-  @media only screen and (max-width:850px) {
-    .UsBodenImages  {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-     }}
-  .UsClients {
-    height: 5rem;
-    
-  }
-  
-  .UsBodenImagesII {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-  
-    gap: 1rem;
-  
-    align-items: center;
-    justify-content: center;
-  
-    margin-top: 1rem;
-  }
-  @media only screen and (max-width: 850px) {
-    .UsBodenImagesII  {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-     }}
-  
+  background-image: url('../assets/backgroundLiso.png');
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.Chefe {
+  width: 26vw;
+
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  transform: rotate(5deg);
+ z-index: 10;
+}
+.Decor {
+  width: 100vw;
+
+}
