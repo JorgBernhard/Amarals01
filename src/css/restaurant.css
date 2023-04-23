@@ -1,87 +1,56 @@
 .Restaurant {
-    display: flex;
-    flex-direction: column;
- 
+  display: flex;
+  flex-direction: row;
   
-  }
-  .RestaurantDesign {
-    display: flex;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.RestaurantDesign {
+  display: flex;
+  flex-direction: column;
 
-    width: 100vw;
-    height:100vh;
-    
-    background-image: url('../assets/restaurant.jpg');
-    background-size: cover;
-    
-    align-items: center;
-    justify-content: center;
-  }
-  .Texto {
-    display: flex;
-    flex-direction: column;
-    margin-top: -40rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .BemVindo {
-    font-family: 'Satisfy', cursive;
-    font-size: 7rem;
-    text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
-    color: #ffffff;
-    text-align: left;
-    margin-left: 4rem;
-    margin-top: 0rem;
- 
-  }
-  .Amarals{
-    font-family: 'Satisfy', cursive;
-    font-size: 9rem;
-    text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
-    color: #ffffff;
-    text-align: center;
-   
-    margin-top: -4rem;
-    margin-bottom: 0rem;
-    
-  }
+  width: 100vw;
+  height:100vh;
+  
+  background-image: url('../assets/restaurant.jpg');
+  background-size: cover;
+
+}
   .Boden {
     display: flex;
-    flex-direction: row;
- 
+    flex-direction: column;
+    
     background-image: url(../assets/backgroundLiso.png);
     background-size: cover;
-    opacity: 80%;
-    width: 100vw;
-    height: 20vh;
-    margin-top: -20vh;
+    opacity: 70%;
+    width: 30vw;
+    height: 100%;
+    margin-left: 0rem;
     
   }
   .ZeitenLinks {
     display: flex;
     flex-direction: column;
     
-    width: 50vw;
+    width: 30vw;
     align-items: center;
     justify-content: center;
-
-    align-items: center;
-    justify-content: center;
-
+    margin-top: 80rem;
   
-  }
     
+  }
+  
   .Offen {
+    display: flex;
+    flex-direction: column;
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-
-  
+    
     color: #ffffff;
-
     text-align: center;
 
-    margin-top: 0rem;
   }
   .RestaurantReservierungen {
     all: unset;
@@ -90,7 +59,7 @@
     color: rgb(255, 255, 255);
     
     margin-top: -0rem;
-   
+    
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     border: solid 0.2rem #ffffff;
     border-radius: 1rem;
@@ -103,32 +72,33 @@
     font-weight: 700;
   } 
 
-.AdresseRechts {
+.Texto {
   display: flex;
   flex-direction: column;
-  
-  width: 50vw;
-  align-items: center;
-  justify-content: center;
 
+  margin-top: -80rem;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
-.RestaurantAdresse {
+.BemVindo {
   font-family: 'Satisfy', cursive;
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 7rem;
+  text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
+  color: #ffffff;
+  text-align: left;
+  margin-left: 4rem;
+  margin-top: 0rem;
 
-  color: goldenrod;
-  text-align: center;
-  margin-bottom: -0.5rem;
 }
-.Adresse {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-
+.Amarals{
+  font-family: 'Satisfy', cursive;
+  font-size: 9rem;
+  text-shadow: 1rem 1rem 1rem  rgb(224, 156, 54);
   color: #ffffff;
   text-align: center;
-
+ 
+  margin-top: -4rem;
+  margin-bottom: 0rem;
+  
 }
